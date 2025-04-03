@@ -16,7 +16,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const tradutor = _translate.plugins.menu_menu
     // const pp = imagen7;
 
-    // let vn = './media/menu.mp3'
+     let vn = './media/menu.mp3'
     const img = './Menu2.jpg';
     const d = new Date(new Date + 3600000);
     const locale = 'es-ES';
@@ -34,7 +34,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `🔮 𝙈𝘼𝙔-𝘽𝙊𝙏 🔮
+    const str = `🔮 𝐌𝐘𝐒𝐓𝐈𝐂 𝐁𝐎𝐓 🔮
 
  📌 *Hola,* ${taguser}
 
@@ -47,7 +47,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
  💰 •  *MayCoins:* ${money}
  🎟️ •  *Tokens:* ${joincount}
  🎁 •  *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''} ${readMore}
- 🏖️ •  *Adquiere el bot con:* ㅤㅤㅤㅤㅤㅤ+573145914910
+ 🏖️ •  *Adquiere el bot con:* ㅤㅤㅤㅤㅤㅤ+5219531627349
 
   _*< 📜 LISTA DE MENUS 📋 />*_
   
